@@ -20,8 +20,8 @@ def main():
     api.update_status(status=twitter_1)
 
     twitter_2 = "this is a auto teitter program with pic test 2"
-    my_wife= 'C:\I love study\my_wife.jpg'
-    api.update_with_media(my_wife, status=twitter_2)
+    my_pic= 'path.jpg'
+    api.update_with_media(my_pic, status=twitter_2)
 
 if __name__ == "__main__":
   main()  
